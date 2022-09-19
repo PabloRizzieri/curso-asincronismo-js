@@ -18,3 +18,18 @@ countCows.then((result) => {
 }).finally(() => {
     console.log("Check the result");
 })
+
+
+// Ejercicio (Exercise)
+function delay(time, message) {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(message);
+    }, time)
+    })
+}
+
+delay(5000, "Hello Pablo")
+    .then((result) => {
+        console.log(result);
+    })
