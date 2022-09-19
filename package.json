@@ -1,0 +1,17 @@
+{
+  "name": "curso-asincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/Callback/challenge.js"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Pablo Rizzieri <ppablorizzieri@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
